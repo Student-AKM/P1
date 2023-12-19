@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    border: 1px solid blueviolet;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid rebeccapurple;
+    margin-right: 23px;
+}
+
+.navbar ul li{
+    float: right;
+    margin: 17px 32px;
+    font-size: 16px;
+    color: rgb(124, 124, 124);
+}
