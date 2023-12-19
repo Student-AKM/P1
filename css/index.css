@@ -10,8 +10,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
     padding: 16px 32px;
     box-shadow: 1px 2px 5px 2px rgb(227 227 227);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 101;
 }
 
 .navbar ul{
@@ -27,6 +32,8 @@
     font-size: 14px;
     color: #475569;
     font-weight: 900;
+    cursor: pointer;
+    text-transform: capitalize;
 }
 
 #logo{
@@ -36,4 +43,66 @@
     margin-left: 2px;
     font-weight: 900;
     color: #44403c;
+}
+
+
+/* features content */
+
+.features{
+    background-color: #6366f1;
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 45px;
+    margin-left: 34px;
+    margin-right: 34px;
+    padding: 23px;
+    color: #475569;
+}
+
+.features1{
+    font-size: 23px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.features:hover{
+    cursor: pointer;
+}
+
+.features p{
+    background-color: white;
+    padding: 23px;
+    border-radius: 15px;
+}
+
+.features p:hover{
+    cursor: pointer;
+}
+
+/* chat content */
+
+
+
+/* custom scrollbar */
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #a78bfa;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #fcd34d;
+    border-radius: 20px;
+}
+
+
+/* footer section */
+
+footer{
+    margin-top: 800px;
+    border: 1px solid rebeccapurple;
 }
