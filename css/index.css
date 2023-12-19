@@ -36,6 +36,10 @@
     text-transform: capitalize;
 }
 
+.navbar ul li:hover{
+    color: #0ea5e9;
+}
+
 #logo{
     /* border: 1px solid rebeccapurple; */
     padding: 1px;
@@ -54,11 +58,22 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 45px;
-    margin-left: 34px;
-    margin-right: 34px;
+    height: 100%;
     padding: 23px;
     color: #475569;
+    position: fixed;
+    top: 0;
 }
+
+.features{
+    display: none;
+}
+
+
+
+
+
+
 
 .features1{
     font-size: 23px;
@@ -79,6 +94,10 @@
 .features p:hover{
     cursor: pointer;
 }
+
+
+
+
 
 /* chat content */
 
