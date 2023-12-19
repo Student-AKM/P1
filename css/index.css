@@ -4,27 +4,35 @@
     list-style: none;
 }
 
-header{
-    border: 1px solid blueviolet;
-}
+
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px;
+    padding: 16px 32px;
+    box-shadow: 1px 2px 5px 2px rgb(227 227 227);
 }
 
 .navbar ul{
     display: flex;
     align-items: flex-end;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     margin-right: 23px;
 }
 
 .navbar ul li{
-    float: right;
-    margin: 17px 32px;
-    font-size: 16px;
-    color: rgb(124, 124, 124);
+    /* border: 1px solid rebeccapurple; */
+    padding: 2px 15px;
+    font-size: 14px;
+    color: #475569;
+    font-weight: 500;
+}
+
+#logo{
+    border: 1px solid rebeccapurple;
+    padding: 1px;
+    font-size: 17px;
+    margin-left: 2px;
+    font-weight: 900;
 }
