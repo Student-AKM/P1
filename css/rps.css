@@ -70,9 +70,10 @@ img{
 
 #msg{
     background-color: #4a4b49bb;
+    margin-right: 37px;
     color: white;
     line-height: 2rem;
-    font-size: 2rem;
+    font-size: 21px;
     margin-top: 5rem;
     padding: 1rem;
     border-radius: 1rem;
