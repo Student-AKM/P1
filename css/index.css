@@ -34,6 +34,12 @@
     font-weight: 900;
     cursor: pointer;
     text-transform: capitalize;
+    text-decoration: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #475569;
 }
 
 .navbar ul li:hover{
