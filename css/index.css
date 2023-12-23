@@ -29,13 +29,15 @@
 .navbar ul li{
     /* border: 1px solid rebeccapurple; */
     padding: 2px 15px;
-    font-size: 14px;
+    font-size: 34px;
     color: #475569;
     font-weight: 900;
     cursor: pointer;
     text-transform: capitalize;
     text-decoration: none;
 }
+
+
 
 .navbar ul li a{
     text-decoration: none;
@@ -49,7 +51,6 @@
 #logo{
     /* border: 1px solid rebeccapurple; */
     padding: 1px;
-    font-size: 17px;
     margin-left: 2px;
     font-weight: 900;
     color: #44403c;
@@ -59,22 +60,29 @@
 /* features content */
 
 .features{
-    background-color: #6366f1;
+    background-color: #9c9ca3;
     margin-top: 64px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
     gap: 45px;
     height: 100%;
+    width: 100%;
     padding: 23px;
     color: #475569;
     position: fixed;
     top: 0;
 }
 
+.features nav ul li{
+    margin-top: 23px;
+}
+
 .features{
     display: none;
 }
 
+.navbar-h ol{
+    display: flex;
+}
 
 .features1{
     font-size: 23px;
@@ -120,3 +128,20 @@
 }
 
 
+@media screen and (min-width: 640px) {
+    .navbar ul{
+        display: none;
+    }
+
+    .features{
+        display: none;
+    }
+
+   
+  }
+
+  @media screen and (max-width: 640px){
+      .navbar-h{
+          display: none;
+      }
+  }
