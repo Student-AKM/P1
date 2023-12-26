@@ -573,6 +573,31 @@ video {
   margin-right: 0px;
 }
 
+.mx-\[10px\] {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mx-\[1px\] {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.mx-\[-1px\] {
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+.mx-\[-21px\] {
+  margin-left: -21px;
+  margin-right: -21px;
+}
+
+.mx-\[-41px\] {
+  margin-left: -41px;
+  margin-right: -41px;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
